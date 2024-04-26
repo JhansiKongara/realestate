@@ -26,6 +26,7 @@
 .card-content {
   padding: 10px 10px;
 }
+
 .card-container:hover {
   transform: scale(1.01);
   cursor: pointer;
