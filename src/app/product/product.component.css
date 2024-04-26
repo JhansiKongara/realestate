@@ -1,0 +1,39 @@
+.card-image,
+.internalcard {
+  width: 100%;
+}
+.internalcard {
+  margin: 10px 0%;
+  box-shadow: -1px -1px 11px 2px;
+  padding: 2px;
+  width: 647px;
+}
+.card-group {
+  margin: 6px auto;
+  width: 95%;
+}
+.card-image {
+  height: 431px;
+  width: 100%;
+}
+.button-container {
+  width: 100%;
+}
+.viw-more-btn {
+  text-align: right;
+}
+
+.card-content {
+  padding: 10px 10px;
+}
+.card-container:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.divider {
+  margin-top: -124px;
+  margin-right: -434px;
+}
+#title {
+  margin-left: 664px;
+}

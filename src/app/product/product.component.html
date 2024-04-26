@@ -1,0 +1,22 @@
+<div class="row contaner-fluid card-group" >
+    <div class="col-sm-3 card-container" >
+        <div class="internalcard display-flex">
+            <img src="{{product.url}}" class="card-image">
+            <div class="divider">
+                <h4 id="title">{{product.title}}</h4>
+                <div id="title"><b>Location: </b>{{product.location}}</div>
+                <div id="title"><b>Price Range: </b>{{product.price}}</div>
+                <div class="d-flex flex-row-reverse" ><button class="btn btn-primary viw-more-btn" >view more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div >
+    <h2>{{ product?.title }}</h2>
+    <p>Price: {{ product?.price }}</p>
+    <p>Location: {{ product?.location }}</p>
+    <p>Subtitle: {{ product?.subtitle }}</p>
+    <p>Content: {{ product?.content }}</p>
+    <img [src]="product?.url" alt="Product Image" width="300">
+</div> -->
