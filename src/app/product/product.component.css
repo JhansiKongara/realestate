@@ -22,7 +22,6 @@
 .viw-more-btn {
   text-align: right;
 }
-
 .card-content {
   padding: 10px 10px;
 }
@@ -30,7 +29,6 @@
   transform: scale(1.01);
   cursor: pointer;
 }
-
 .divider {
   margin-top: -124px;
   margin-right: -434px;
@@ -38,3 +36,4 @@
 #title {
   margin-left: 664px;
 }
+/* test */
