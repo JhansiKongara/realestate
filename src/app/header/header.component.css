@@ -1,0 +1,12 @@
+.header-logo a {
+  color: white;
+}
+
+.header-content a {
+  color: white;
+}
+
+.header {
+  box-shadow: px 4px 3px -1px cadetblue;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+.footer {
+  background-color: darkgrey;
+  /* border-radius: 7px 6px 7px 4px; */
+  position: absolute;
+  width: 100%;
+}
+.footer-content {
+  position: relative;
+  top: 7px;
+  color: black;
+}

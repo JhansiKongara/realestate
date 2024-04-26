@@ -1,0 +1,43 @@
+<ngb-carousel>
+    <ng-template ngbSlide class="myname">
+        <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide" class="carousalimage" />
+        </div>
+        <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide" class="carousalimage" />
+        </div>
+        <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[2]" alt="Random third slide" class="carousalimage" />
+        </div>
+        <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
+<div class="row contaner-fluid card-group" >
+    <div class="col-sm-3 card-container" *ngFor="let image of members">
+        <div class="internalcard">
+            <img src="{{image.url}}" class="card-image">
+            <div class="card-content">
+                <h4>{{image.title}}</h4>
+                <div><b>Location: </b>{{image.location}}</div>
+                <div><b>Price Range: </b>{{image.price}}</div>
+                <div class="d-flex flex-row-reverse" ><button class="btn btn-primary viw-more-btn" routerLink="product/{{image.id}}" routerLinkActive= "active">view more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
